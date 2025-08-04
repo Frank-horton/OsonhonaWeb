@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Outfit', sans-serif;
+}
+.main-login-row {
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.width-40 {
+    width: 40%;
+    background-color: #FAFAFA;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 40px 50px;
+        padding-left: 8%;
+}
+.width-50 {
+    width: 50%;
+    padding-right: 8%;
+}
+.login-img {
+    position: relative;
+    width: 100%;
+    max-width: 75%;
+    height: 440px;
+}
+.login-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 34%;
+    border-radius: 0 0 150px 0;
+}
+.login-img img.login2 {
+    position: absolute;
+    height: 244px;
+    object-fit: contain;
+    right: -120px;
+    left: auto;
+    top: auto;
+    width: 260px;
+    bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 24px -10px #ececec;
+}
+.login-page-title {
+    padding: 20px 0;
+}
+.main-login-row {
+    color: #000;
+}
+.main-title {
+    font-size: 34px;
+    font-weight: 600;
+}
+.main-login-two-box {
+    width: 100%;
+    display: inline-block;
+}
+.login-page-title p {
+    color: #848FAC;
+    font-size: 22px;
+    font-weight: 400;
+}
+.form-login-main-box p {
+    font-size: 16px;
+}
+.main-login-one-box {
+    width: auto;
+    margin: 0 auto;
+    max-width: 520px;
+}
+.form-x-box label {
+    font-size: 16px;
+}
+.login-form {
+    margin-top: 20px;
+    border-top: 2px solid #f5f5f5;
+    padding-top: 20px;
+}
+.submit-btn {
+    width: 100%;
+    background: #282828;
+    color: #fff;
+    font-size: 18px;
+    padding: 13px 30px;
+    font-weight: 400;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+.submit-btn:hover {
+    background: #000000 !important;
+    color: #fff;
+    box-shadow: 0px 0px 10px #c9c9c9;
+}
+.form-login-main-box {
+    border: 2px solid #f5f5f5;
+    padding: 30px 30px;
+}
